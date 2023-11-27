@@ -1,0 +1,27 @@
+.tagAndTaskListContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #323f4b;
+  margin: 10px;
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.tag-btn {
+  border: none;
+  background-color: #f3aa4e;
+  padding: 3px;
+  border-radius: 10px;
+  color: #323f4b;
+  font-family: 'Roboto';
+}
+
+.task-para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}

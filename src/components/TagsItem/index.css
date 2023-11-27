@@ -1,0 +1,23 @@
+.tags-list {
+  list-style-type: none;
+}
+
+.is-active-btn {
+  cursor: pointer;
+  border: none;
+  background-color: #f3aa4e;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding: 5px;
+}
+
+.is-not-active-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #f3aa4e;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding: 5px;
+}

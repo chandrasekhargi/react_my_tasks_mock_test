@@ -1,0 +1,93 @@
+.tags-list-container {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskAndTagItemsContainer {
+  min-width: 60%;
+  background-color: #000000;
+  height: 100vh;
+}
+
+* {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.task-name {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #f1f5f9;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.tag-name {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #f1f5f9;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.no-tasks-para {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #f1f5f9;
+  text-align: center;
+  padding: 50px;
+  font-weight: bold;
+}
+
+.option-txt {
+  font-family: 'Roboto';
+  color: #000000;
+  padding: 5px;
+  width: 100%;
+}
+
+.add-btn-container {
+  text-align: center;
+}
+
+.task-heading {
+  color: #f3aa4e;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.addTask-btn {
+  background-color: #f3aa4e;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  min-width: 30%;
+}
+
+.task-input-ele {
+  font-family: 'Roboto';
+  color: #000000;
+  padding: 5px;
+  width: 100%;
+}
+
+.task-label {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.taskBgContainer {
+  min-width: 40%;
+  background-color: #131213;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.total-container {
+  display: flex;
+}
